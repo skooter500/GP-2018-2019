@@ -36,7 +36,6 @@ Some assignments from previous years:
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
 ## Lecture
-- [Introduction slides](https://1drv.ms/p/s!Ak7y2552PWCrkMw2-mb76OvGqWk6NQ)
 - [The contract for this course](https://1drv.ms/w/s!Ak7y2552PWCrjPYXt8HlWl1T1cg5Og)
 
 ## Lab
@@ -49,7 +48,7 @@ Some assignments from previous years:
 - Learn how to draw using p5
 - Become familiar with writing and running sketches
 
-### Part 1 - Drawing
+### Instructions
 - Log onto [Google Classroom](http://classroom.google.com) and enroll on the module okbrtfr.
 - Create an account at the [P5 Editor](http://editor.p5.org)
 - Check out [the P5 reference](https://p5js.org/reference/)
@@ -57,7 +56,6 @@ Some assignments from previous years:
 - Check out [these Sci-Fi user interfaces made by last years OOP students](https://www.youtube.com/playlist?list=PL1n0B6z4e_E5RZYrubD2pcxq0qzGy-3vr)
 - Check out [these music visualisers made in Processing by previous programming students](https://www.youtube.com/watch?v=cW8s5i9dmqA&list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x)
 - If you are curious, check out [some of my creature videos](https://www.youtube.com/watch?v=cW8s5i9dmqA&list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x)
-
 - Look up the following methods in the p5 reference to make sure you are clear about the syntax and parameters:
 
 * noStroke
@@ -72,7 +70,7 @@ Some assignments from previous years:
 * arc
 * triangle
 
-Write a sketch to draw the following shapes:
+Write sketches to draw the following shapes:
 
 ![Sketch](images/p1.png)
 
