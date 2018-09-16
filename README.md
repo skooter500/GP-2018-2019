@@ -29,12 +29,6 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
-Some assignments from previous years:
-
-[![YouTube](http://img.youtube.com/vi/TY6Wv9lr72A/0.jpg)](https://www.youtube.com/watch?v=TY6Wv9lr72A)
-
-[![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
-
 ## Lecture
 - [The contract for this course](https://1drv.ms/w/s!Ak7y2552PWCrjPYXt8HlWl1T1cg5Og)
 

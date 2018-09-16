@@ -10,6 +10,11 @@ Assignments - 50%
 - Assignment 3 - (Semester 2 assignment) - 15%
 - MCQ's 5 - 5%
 
+Some assignments from previous years:
+
+[![YouTube](http://img.youtube.com/vi/TY6Wv9lr72A/0.jpg)](https://www.youtube.com/watch?v=TY6Wv9lr72A)
+
+[![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
 # Assignment 1
 
