@@ -38,8 +38,8 @@ In your christmas card you should use:
 Marking scheme:
 
 | Complexity | Visuals | Learning |
-|------------|---------|---|------|
-|30%         | |
+|------------|---------|----------|
+|40%         | 40%     | 20%      |
 
 Rubric:
 
