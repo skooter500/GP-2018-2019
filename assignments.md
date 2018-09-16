@@ -1,10 +1,8 @@
-# Last years marks
-
-Tests - 50%
+### Tests - 50%
 - Lab Test 1 25%
 - Lab Test 2 25%
 
-Assignments - 50%
+### Assignments - 50%
 - Assignment 1 - (Christmas card) - 15%
 - Assignment 2 - (Game you make over Christmas) - 15%
 - Assignment 3 - (Semester 2 assignment) - 15%
