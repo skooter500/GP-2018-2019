@@ -57,18 +57,17 @@ Some assignments from previous years:
 - Check out [these music visualisers made in Processing by previous programming students](https://www.youtube.com/watch?v=cW8s5i9dmqA&list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x)
 - If you are curious, check out [some of my creature videos](https://www.youtube.com/watch?v=cW8s5i9dmqA&list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x)
 - Look up the following methods in the p5 reference to make sure you are clear about the syntax and parameters:
-
-* noStroke
-* noFill
-* line
-* ellipse
-* rect
-* background
-* stroke
-* fill
-* size
-* arc
-* triangle
+    - noStroke
+    - noFill
+    - line
+    - ellipse
+    - rect
+    - background
+    - stroke
+    - fill
+    - size
+    - arc
+    - triangle
 
 Write sketches to draw the following shapes:
 
