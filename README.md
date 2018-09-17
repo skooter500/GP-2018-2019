@@ -2,7 +2,7 @@
 
 Resources
 ---------
-* [P5 Editor](http://editor.p5.org)
+* [P5 Editor](http://editor.p5js.org)
 * [The P5 Reference](https://p5js.org/reference/)
 * [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 * [The Nature of Code](http://natureofcode.com/)
@@ -44,7 +44,7 @@ Resources
 
 ### Instructions
 - Log onto [Google Classroom](http://classroom.google.com) and enroll on the module okbrtfr.
-- Create an account at the [P5 Editor](http://editor.p5.org)
+- Create an account at the [P5 Editor](http://editor.p5js.org)
 - Check out [the P5 reference](https://p5js.org/reference/)
 - Check out [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 - Check out [these Sci-Fi user interfaces made by last years OOP students](https://www.youtube.com/playlist?list=PL1n0B6z4e_E5RZYrubD2pcxq0qzGy-3vr)
