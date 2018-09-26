@@ -30,6 +30,14 @@ Resources
 [Assignment rubric & description](assignments.md)
 
 # Week 2
+## Lecture - Using variables. Trigonometry & spirals
+- [Spiral sketch](https://editor.p5js.org/skooter500/sketches/ByGsKtLFX)
+- [Using variables](https://editor.p5js.org/skooter500/sketches/Skz6etItm)
+- [Solution to the lab](https://editor.p5js.org/skooter500/sketches/rJiCWHUKm)
+
+[![YouTube](http://img.youtube.com/vi/Bn_B3T_Vbxs/0.jpg)](https://www.youtube.com/watch?v=Bn_B3T_Vbxs)
+
+[![YouTube](http://img.youtube.com/vi/RnS0YNuLfQQ/0.jpg)](https://www.youtube.com/watch?v=RnS0YNuLfQQ)
 
 ## Lab
 
