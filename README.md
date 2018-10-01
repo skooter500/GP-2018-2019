@@ -76,7 +76,7 @@ You can use the function [text](https://p5js.org/reference/#/p5/text) to print t
 
 ### Part 3 - Spiral Jam
 
-Check out the sketch we wrote last week which draws a spiral. Experiment with the sketch and see what kind of crazy beautiful spirals you can make. Use variables for colourscreate colour gradients, use different shapes etc etc.
+Check out the [sketch we wrote last week which draws a spiral](https://editor.p5js.org/skooter500/sketches/ByGsKtLFX). Experiment with the sketch and see what kind of crazy beautiful spirals you can make. Use variables for colourscreate colour gradients, use different shapes etc etc.
 
 
 # Week 2
