@@ -29,6 +29,56 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
+# Week 3
+
+## Lab
+### Learning Outcomes
+- Use numeric variables in a sketch
+- Use operatorts on variables
+- Use trigonometry
+- Make beautiful things
+
+### Part 1 - Making your own variables (this was part 2 from last week)
+
+Make this:
+
+[![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
+
+What is happening:
+
+- The ground takes up half the window size
+- The spaceship is 100 pixels wide and is *centered* around the mouse position.
+- The person starts at the right side of the screen and moved from right to left
+
+Use variables wherever practical in your sketch and calculate positions and sizes relative to these variables.
+
+Bonus!
+
+There are few things you can try (but you will probably have to read ahead and figure out how the if statement works)
+
+- Come up with a more beautiful looking spaceship and person
+- Change the colours of everything
+- Make a car that drives from left to right
+- When the person reaches the left side of the screen, he should switch direction
+- Make the lights on the spaceship flash different colours
+
+### Part 2 - Trigonometry
+
+A person flying a kite has released 176m of string. The string makes an angle of 27° with the ground. How high is the kite? How far away is the kite horizontally?
+Write a p5 sketch to draw and solve the problem.
+  - Solve the problem on paper first
+  - Make variables for stringLen, theta, kHeight, kDist and any other variables you need
+  - Assign the values that you know to the variables
+  - Write code to calculate the kith height and horizontal distance values
+  - Write code to draw the scenario
+
+You can use the function [text](https://p5js.org/reference/#/p5/text) to print text to the screen and [nf](https://p5js.org/reference/#/p5/nf) to format a number to a certain number of dp's. For example ```text("Price: " + nf(p, 10, 2), 10, 50)```. You can look these functions up in the P5.js reference.
+
+### Part 3 - Spiral Jam
+
+Check out the sketch we wrote last week which draws a spiral. Experiment with the sketch and see what kind of crazy beautiful spirals you can make. Use variables for colourscreate colour gradients, use different shapes etc etc.
+
+
 # Week 2
 ## Lecture - Using variables. Trigonometry & spirals
 - [Spiral sketch](https://editor.p5js.org/skooter500/sketches/ByGsKtLFX)
@@ -60,34 +110,6 @@ In your solution use the following processing functions:
 - noStroke
 
 And the mouseX and mouseY varibles. You can also use the + - * / operators
-
-# Part 2 - Making your own variables
-
-Make this:
-
-[![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
-
-What is happening:
-
-- The ground takes up half the window size
-- The spaceship is 100 pixels wide and is *centered* around the mouse position.
-- The person starts at the right side of the screen and moved from right to left
-
-Use variables wherever practical in your sketch and calculate positions and sizes relative to these variables.
-
-Bonus!
-
-There are few things you can try (but you will probably have to read ahead and figure out how the if statement works)
-
-- Come up with a more beautiful looking spaceship and person
-- Change the colours of everything
-- Make a car that drives from left to right
-- When the person reaches the left side of the screen, he should switch direction
-- Make the lights on the spaceship flash different colours
-
-
-
-
 # Week 1
 
 ## Lecture
