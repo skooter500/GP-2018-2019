@@ -72,7 +72,7 @@ Write a p5 sketch to draw and solve the problem.
   - Write code to calculate the kith height and horizontal distance values
   - Write code to draw the scenario
 
-![image](images/p28)
+![image](images/p28.png)
 
 
 You can use the function [text](https://p5js.org/reference/#/p5/text) to print text to the screen and [nf](https://p5js.org/reference/#/p5/nf) to format a number to a certain number of dp's. For example ```text("Price: " + nf(p, 10, 2), 10, 50)```. You can look these functions up in the P5.js reference.
