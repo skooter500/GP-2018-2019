@@ -34,11 +34,13 @@ Resources
 - Loops
 ## Lab
 
+## Part 1
+
 Try and make this sketch that draws a face that starts in the center of the screen and moves to the edge of the screen and then follows around the outside of the screen
 
 [![YouTube](http://img.youtube.com/vi/lA-3AROmMiE/0.jpg)](https://www.youtube.com/watch?v=lA-3AROmMiE)
 
-Advanced!
+## Part 2
 
 See how much of this sketch you can make today:
 
@@ -48,8 +50,13 @@ What is happening:
 
 The face represents the player. The player can move left and right by pressing the left and right arrow keys. The player can only move upwards using the up arrow key whenever they are over the ladder. There is no requirement for down. When the player reaches the key, the player changes to a happy face and the key disappears.
 
-In your solution, you should use variables, the if statement and at least one loop. You can optionally use classes.
+In your solution, you should use variables, the if statement. 
 
+# Part 3 - Bugzap
+
+Try and program this silly game. Best to start getting the core game working and then get the splash screen and game over screen working
+
+[![YouTube](http://img.youtube.com/vi/1If-kPm6MzM/0.jpg)](https://www.youtube.com/watch?v=1If-kPm6MzM)
 
 # Week 3 - Selection
 ## Lecture
