@@ -29,7 +29,38 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
-# Week 3
+# Week 4
+## Lecture
+- Loops
+## Lab
+
+Try and make this sketch that draws a face that starts in the center of the screen and moves to the edge of the screen and then follows around the outside of the screen
+
+[![YouTube](http://img.youtube.com/vi/lA-3AROmMiE/0.jpg)](https://www.youtube.com/watch?v=lA-3AROmMiE)
+
+Advanced!
+
+See how much of this sketch you can make today:
+
+[![YouTube](http://img.youtube.com/vi/FTHyQDovfsw/0.jpg)](https://www.youtube.com/watch?v=FTHyQDovfsw)
+
+What is happening:
+
+The face represents the player. The player can move left and right by pressing the left and right arrow keys. The player can only move upwards using the up arrow key whenever they are over the ladder. There is no requirement for down. When the player reaches the key, the player changes to a happy face and the key disappears.
+
+In your solution, you should use variables, the if statement and at least one loop. You can optionally use classes.
+
+
+# Week 3 - Selection
+## Lecture
+
+- [If Statement sketch](https://editor.p5js.org/skooter500/sketches/B1HVJ6JqQ)
+
+[![YouTube](http://img.youtube.com/vi/1Osb_iGDdjk/0.jpg)](https://www.youtube.com/watch?v=1Osb_iGDdjk)
+
+[![YouTube](http://img.youtube.com/vi/r2S7j54I68c/0.jpg)](https://www.youtube.com/watch?v=r2S7j54I68c)
+
+[![YouTube](http://img.youtube.com/vi/UvSjtiW-RH8/0.jpg)](https://www.youtube.com/watch?v=UvSjtiW-RH8)
 
 ## Lab
 ### Learning Outcomes
@@ -156,109 +187,3 @@ Write sketches to draw the following shapes:
 ![Sketch](images/p1.1.png)
 
 ![Sketch](images/p1.2.png)
-
-```JavaScript
-function setup() {
-  createCanvas(500, 500);
-  colorMode(HSB);
-}
-
-function drawLadder(x, y, w, h, steps)
-{
-  line(x, y, x, y - h);
-  line(x + w, y, x + w, y - h);
-  var gap = h / (steps + 1);
-  for(var i = 0 ; i < steps ; i ++)
-  {
-    var gy = (y - gap) - (i * gap);
-    line(x, gy, x + w, gy); 
-  }
-}
-
-function drawKey(x, y)
-{  
-  var w = 10;
-  ellipse(x, y, w, w);
-  var c = x;
-  var h = y + w * 3;
-  line(c, y + w / 2, c, h);
-  line (c, h - 5, c - 5, h - 5);
-  line (c, h - 10, c - 5, h - 10);
-  line (c, h - 15, c - 5, h - 15);
-}
-
-function drawPlayer(x,y, w, happy)
-{
-  ellipse(x, y, w, w);
-  ellipse(x - 10, y - 10, 5, 5);
-  ellipse(x + 10, y - 10, 5, 5);
-  ellipse(x, y, 5, 5);
-  line(x - 10, y + 10, x + 10 , y + 10);
-  if (happy)
-  {
-    line(x-10, y + 10, x-13, y + 2);
-    line(x+10, y + 10, x+13, y + 2);    
-  }
-  else
-  {
-    line(x-10, y + 10, x-13, y + 15);
-    line(x+10, y + 10, x+13, y + 15);    
-  }
-}
-
-var lx = 200, ly = 400, lw = 60;
-var kx = 225, ky = 370;
-var px = 50, py = 375;
-
-function checkKeys()
-{
-  if (keyIsDown(LEFT_ARROW))
-  {
-    px --;
-  }
-  if (keyIsDown(RIGHT_ARROW))
-  {
-    px ++;
-  }
-}
-
-var happy = false;
-var theta = 0;
-
-function draw()
-{
-  if (happy)
-  {
-    noFill();
-    px =random(0, width);
-    py = random(0, height);
-    stroke(map(px+py, 0, width+height, 0, 255), 255, 255);
-    if (frameCount % 120 == 0)
-    {
-      background(random(0, 255), 255, 255);
-    }
-    
-  }
-  else
-  {
-    background(0);
-    stroke(255);
-    noFill();
-  }
-    
-	checkKeys();
-  //line(0, 400, width, 400);
-  if (! happy)
-  {
-    drawKey(kx, ky);
-  }
-  drawPlayer(px, py, 50, happy);
-  
-  var d = dist(px, py, kx, ky);
-  if (d < 10)
-  {
-    happy = true;
-  }
-  
-}
-```
