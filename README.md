@@ -81,6 +81,8 @@ Write a sketch that can draw stars like these:
 
 ![Sketch](images/p29.png)
 
+Google Sacred Geometry and see if you can code some of the images
+
 # Week 4
 ## Lecture
 - Loops
