@@ -73,12 +73,20 @@ Try and draw this using ONE for loop:
 
 ![Sketch](images/p27.png)
 
+Write a sketch that can draw regular polygons like squares, pentagons, octogons etc:
+
+![Sketch](images/p10.png)
+
+Write a sketch that can draw stars like these:
+
+![Sketch](images/p29.png)
+
 # Week 4
 ## Lecture
 - Loops
 - [Loops examples](https://editor.p5js.org/skooter500/sketches/SJ6Q-lt9m)
 
-[![YouTube](http://img.youtube.com/vi/cnRD9o6odjk/0.jpg)](https://www.youtube.com/watch?v=cnRD9o6odjk
+[![YouTube](http://img.youtube.com/vi/cnRD9o6odjk/0.jpg)](https://www.youtube.com/watch?v=cnRD9o6odjk)
 
 ## Lab
 
