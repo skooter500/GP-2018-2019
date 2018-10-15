@@ -29,9 +29,57 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
+# Week 5
+## Lecture - More loops
+
+## Lab
+### Learning Outcomes
+- Practice generating lots of different shapes with loops in processing
+- Be creative and make something beautiful in code
+
+Draw the following shapes. Use variables and loops in your solutions!
+
+I'ts best to spend some time thinking about the variables and how they are changing before writing code:
+
+These require ONE loop:
+
+![Sketch](images/p21.png)
+
+This shape draws lines from the sides that all meet in the middle. This can be done using one loop, but is better with two:
+
+![Sketch](images/p19.png)
+
+This sketch always draws 10 equally sized circles across the screen. This should work no matter what you set the screen size to. You should also declare a variable to hold the number of circles to draw so that if you change this number, the sketch should still work:
+
+![Sketch](images/p18.png)
+
+This sketch places circles around the outside of a bigger circle to make a flower pattern. Once you figure this out, you can modify it to do something cool with colours:
+
+![Sketch](images/p20.png)
+
+This sketch prints the numbers of the clock around in a circle:
+
+![Sketch](images/p22.png)
+
+This sketch requires you to put one loop inside another and also use a boolean variable, though there are other ways to do this:
+
+![Sketch](images/p23.png)
+
+This is what it looks like when all the above code is in one sketch:
+
+![Sketch](images/p24.png)
+
+Try and draw this using ONE for loop:
+
+![Sketch](images/p27.png)
+
 # Week 4
 ## Lecture
 - Loops
+- [Loops examples](https://editor.p5js.org/skooter500/sketches/SJ6Q-lt9m)
+
+[![YouTube](http://img.youtube.com/vi/cnRD9o6odjk/0.jpg)](https://www.youtube.com/watch?v=cnRD9o6odjk
+
 ## Lab
 
 ## Part 1
