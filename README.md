@@ -29,8 +29,46 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
+# Week 6
+## Lecture - Functions & recursion
+
+## Lab
+### Learning Outcomes
+- Learn how to use the for loop and the while loop to generate sequences of numbers
+- Develop computational thinking skills
+
+Start by writing code in the setup function to do the following. Write these using both for loops and while loops:
+
+- A loop that prints the numbers from 0-20
+- A loop that prints all the odd numbers between 0-200
+- A loop that prints the numbers from 20-0 backwards
+- A loop that prints the numbers from 500-450 going backwards in steps of 5 
+
+You can write:
+
+```colorMode(HSB);```
+
+In your setup function
+
+Use a for loop, rect and HSB colours to draw this:
+![Sketch](images/p31.png)
+
+Use sin and cos to draw this:
+
+![Sketch](images/p30.png)
+
+Use a loop and the HSB colour space
+![Sketch](images/p32.png)
+
+Use a nested loop to draw this:
+![Sketch](images/p32.png)
+
+
 # Week 5
 ## Lecture - More loops
+- [Flowers sketch](https://editor.p5js.org/skooter500/sketches/HkoRo7MoX)
+- [Drawing a regular polygon](https://editor.p5js.org/skooter500/sketches/r1c-vxzs7)
+- [Printing the fibonachi sequence]()
 
 ## Lab
 ### Learning Outcomes
@@ -81,7 +119,7 @@ Write a sketch that can draw stars like these:
 
 ![Sketch](images/p29.png)
 
-Google Sacred Geometry and see if you can code some of the images
+Google Sacred Geometry and see if you can code some of the images!
 
 # Week 4
 ## Lecture
