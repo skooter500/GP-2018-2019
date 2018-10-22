@@ -71,7 +71,7 @@ Use a nested loop (a loop inside a loop) to draw this:
 ![Sketch](images/p32.png)
 
 
-Make something colourful and spirally and share it in the #generativeart channel on dischord.
+Make something colourful and spirally and share it in the #generativeart channel on discord.
 
 # Week 5
 ## Lecture - More loops
