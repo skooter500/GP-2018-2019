@@ -62,7 +62,8 @@ Use a loop and the HSB colour space
 ![Sketch](images/p33.png)
 
 Use ellipse to draw this:
-![Sketch](images/p33.png)
+
+![Sketch](images/p34.png)
 
 Use a nested loop (a loop inside a loop) to draw this:
 ![Sketch](images/p32.png)
