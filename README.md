@@ -61,8 +61,12 @@ Use sin and cos to draw this:
 Use a loop and the HSB colour space
 ![Sketch](images/p33.png)
 
-Use a nested loop to draw this:
+Use ellipse to draw this:
+![Sketch](images/p33.png)
+
+Use a nested loop (a loop inside a loop) to draw this:
 ![Sketch](images/p32.png)
+
 
 Make something colourful and spirally and share it in the #generativeart channel on dischord.
 
