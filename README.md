@@ -67,6 +67,7 @@ Use ellipse to draw this:
 ![Sketch](images/p34.png)
 
 Use a nested loop (a loop inside a loop) to draw this:
+
 ![Sketch](images/p32.png)
 
 
