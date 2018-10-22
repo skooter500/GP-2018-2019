@@ -51,6 +51,7 @@ You can write:
 In your setup function
 
 Use a for loop, rect and HSB colours to draw this:
+
 ![Sketch](images/p31.png)
 
 Use sin and cos to draw this:
@@ -58,11 +59,12 @@ Use sin and cos to draw this:
 ![Sketch](images/p30.png)
 
 Use a loop and the HSB colour space
-![Sketch](images/p32.png)
+![Sketch](images/p33.png)
 
 Use a nested loop to draw this:
 ![Sketch](images/p32.png)
 
+Make something colourful and spirally and share it in the #generativeart channel on dischord.
 
 # Week 5
 ## Lecture - More loops
