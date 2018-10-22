@@ -58,7 +58,8 @@ Use sin and cos to draw this:
 
 ![Sketch](images/p30.png)
 
-Use a loop and the HSB colour space
+Use a loop and the HSB colour space:
+
 ![Sketch](images/p33.png)
 
 Use ellipse to draw this:
