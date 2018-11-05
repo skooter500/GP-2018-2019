@@ -29,6 +29,27 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
+# Week 8 - Flow fields? Switch to Processing
+
+# Lab
+### Learning Outcomes
+- Implement a complete simple game project!
+- Use if statements, methods and the % operator
+- Model a game system in code (scoring, movement, collisions)
+
+Today let's finish programming BugZap. Start with [the code we wrote in the class](https://editor.p5js.org/skooter500/sketches/Bkyy4wosQ). Use your creativity and change colours and shapes of the player and bug.
+
+Here is a video of my version:
+
+[![YouTube](http://img.youtube.com/vi/s6PA8jtWneQ/0.jpg)](https://www.youtube.com/watch?v=s6PA8jtWneQ)
+
+- Now add the player lazer. I used to UP key for this. I just drew a line for the lazer.
+- Make a variable for score and check for collisions between the lazer and the bug. Add a variable for score. You can print stuff to the screen using the text method in Processing. If you want to try something advanced, you can try using this font: [this](https://www.dafont.com/hyperspace.font)
+- Make some sound effects and add them to the game. I used [BFXR](http://www.bfxr.net/) to make the sounds. 
+- Add the splash screen and game over screen. I used an int variable called gameState to control this.
+
+# Week 7 - Review week & bank holiday
+
 # Week 6
 ## Lecture - Functions & recursion
 
