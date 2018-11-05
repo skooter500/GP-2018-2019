@@ -29,7 +29,8 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
-# Week 8 - Flow fields? Switch to Processing
+# Week 8 - Arrays Switch to Processing
+- [Arrays example with snow](processing/snowarrays/snowarrays.pde)
 
 # Lab
 ### Learning Outcomes
