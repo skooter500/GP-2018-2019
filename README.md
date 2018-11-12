@@ -30,6 +30,8 @@ Resources
 [Assignment rubric & description](assignments.md)
 
 # Week 9 - More Arrays & 2D arrays
+- [Rainfall arrays code](processing/rainfall)
+- [Game of life starter code](processing/life)
 
 # Lab
 ## Learning Outcomes
