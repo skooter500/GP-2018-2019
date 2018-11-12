@@ -49,6 +49,86 @@ Here is a video of my version:
 - Make some sound effects and add them to the game. I used [BFXR](http://www.bfxr.net/) to make the sounds. 
 - Add the splash screen and game over screen. I used an int variable called gameState to control this.
 
+# Week 9 - More Arrays & 2D arrays
+
+# Lab
+
+Today in the lab you will be making this:
+
+[![YouTube](http://img.youtube.com/vi/GW-6Lk-x10g/0.jpg)](https://www.youtube.com/watch?v=GW-6Lk-x10g)
+
+- Create a blank sketch in Processing and paste in the following code:
+
+  ```
+  void setup() {
+    size(500, 500);
+    size = width / rows;
+  }
+
+  int rows = 10, cols = 10;
+  float size;
+
+  int playerRow = 9;
+  int playerCol = 8; 
+
+  int keyCol, keyRow;
+
+  boolean gotKey = false; 
+
+
+  int[][] map = {
+    {1,1,1,1,1,1,1,1,1,1}
+    ,{1,0,0,0,0,0,0,0,3,1}
+    ,{1,0,1,1,1,1,1,1,1,1}
+    ,{1,0,1,1,1,1,0,1,1,1}
+    ,{1,0,0,0,0,0,0,0,1,1}
+    ,{1,1,1,1,1,0,1,1,1,1}
+    ,{1,1,1,1,1,0,0,0,0,1}
+    ,{1,1,1,0,0,0,1,1,0,1}
+    ,{1,1,1,0,0,0,1,1,0,1}
+    ,{1,1,1,1,1,1,1,1,0,1}
+  };
+
+  void drawMap() {
+  }
+
+
+  void drawPlayer()
+  {
+  }
+
+  void keyPressed()
+  {
+    // This is how you check for keys...   
+    if (keyCode == UP) {
+      playerRow --;
+    }
+  }
+
+  void draw() {  
+    
+  }
+  ```
+
+- The 2D array map contains elements that give the contents of each tile on the map.
+    - 1 = grass
+    - 0 = road
+    - 3 = key
+- Write the function drawMap that draws the tiles to the screen. To do this you will have to:
+  - Write a nested for loop to iterate over the rows and cols in the array    
+    - Calculate the x and y coordinates for top left of the tile
+    - Check the contents of the map array at row and col and depending on it's value, change the fill colour
+    - Assign values to keyRow and keyCol
+- Write the function drawPlayer that draws the player cell in blue. Calculate the x and y of the players rect and then sett the fill colour and draw the rect
+- Write the function movePlayer that checks the keys and moves the playerRow and playerCol variables in response to the keys. You should write the if statement so that you only allow the player to move along the road and not onto the grass.
+- Check to see if the player collects the key and if so, set the gotKey variable to be true
+
+# Week 8 - Arrays & Switch to Processing
+- [Arrays reference](https://processing.org/reference/Array.html)
+- [Arrays example](processing/snowarrays/snowarrays.pde)
+
+[![YouTube](http://img.youtube.com/vi/5tSBbWySCC0/0.jpg)](https://www.youtube.com/watch?v=5tSBbWySCC0)
+
 # Week 7 - Review week & bank holiday
 
 # Week 6
