@@ -29,6 +29,9 @@ Resources
 
 [Assignment rubric & description](assignments.md)
 
+# Week 10 - More Game of Life
+- [Game of life code from the class](processing/life)
+
 # Week 9 - More Arrays & 2D arrays
 - [Rainfall arrays code](processing/rainfall)
 - [Game of life starter code](processing/life)
