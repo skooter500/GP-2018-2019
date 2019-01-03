@@ -14,6 +14,27 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+
+# Assignment 2 - Due 4th February 2019
+
+This is the game you should make:
+
+[![YouTube](http://img.youtube.com/vi/beCtztvlo_g/0.jpg)](https://www.youtube.com/watch?v=beCtztvlo_g)
+
+## Marking scheme
+
+Code 33% Features 33% Visuals 33%
+
+## Rubric
+
+| Grade | Description |
+|-------|-------------|
+| First | Significantly improved on the core gameplay by adding features such as the ability to shoot as asteroids, sound effects, several levels of increasing difficulty, better player movement, animation and explosions (or other cool stuff). Use of advanced features of Processing that we haven't covered in the class. For example, PShape, classes, pushMatrix and popMatrix |
+| 2.1 | Used functions, arrays, loops, variables and implemented everything in the video |
+| 2.2 | Got the core game implemented but missing some features such as the splash screen or the game over screen. Didnt use functions and instead everything in the draw function |
+| Pass | Got some basic stuff like the player and asteroids working but no collisions |
+| Fail | Very little works |
+
 # Assignment 1
 
 Create an animated Christmas card in P5. You must make the Christmas card for someone and give it to that person. 
