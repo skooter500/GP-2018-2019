@@ -101,9 +101,13 @@ void keyPressed()
 }
 
 
+
+
 void draw()
 {
   background(0);
+  rectMode(CENTER);
+    
   if (mode == 0)
   {
     rects();

@@ -27,6 +27,18 @@ Resources
 - Assignment 2 - 30% - Due TBC 
 - End of Year lab test - 30% - TBC 
 
+
+### Semester 2
+
+## Week 3
+- The Frequency Spectrum
+
+## Week 2
+- Audio visualisation
+
+## Week 1
+- Solution to the lab test 
+
 [Assignment rubric & description](assignments.md)
 
 # Week 10 - More Game of Life
