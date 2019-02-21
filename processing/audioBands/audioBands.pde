@@ -7,7 +7,8 @@ import ddf.minim.ugens.*;
 
 void setup()
 {
-  size(500, 500);
+  //size(500, 500);
+  fullScreen();
 
   minim = new Minim(this);
 
@@ -48,7 +49,7 @@ void getFrequencyBands()
       average += fft.getBand(j) * (j + 1);
     }
     average /= (float) w;
-    bands[i] = average * 5;
+    bands[i] = average * 5.0f;
     lerpedBands[i] = lerp(lerpedBands[i], bands[i], 0.1f);
   }
 }
