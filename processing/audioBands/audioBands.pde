@@ -5,8 +5,6 @@ import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 
-
-
 void setup()
 {
   size(500, 500);
@@ -25,7 +23,7 @@ void setup()
 Minim minim;
 FFT fft; // Fast fourier transform
 AudioSample ai;
-int frameSize = 1024;
+int frameSize = 512;
 
 int sampleRate = 44100;
 
@@ -50,7 +48,7 @@ void getFrequencyBands()
       average += fft.getBand(j) * (j + 1);
     }
     average /= (float) w;
-    bands[i] = average;
+    bands[i] = average * 5;
     lerpedBands[i] = lerp(lerpedBands[i], bands[i], 0.1f);
   }
 }

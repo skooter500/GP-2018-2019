@@ -22,16 +22,48 @@ Resources
 
 ## Assignments
 
-- 19 November 2018 Lab Test 20%
-- 3 December 2018 Assignment 1 submission 20%
-- Assignment 2 - 30% - Due TBC 
+- 19 November 2018 Lab Test 15%
+- 3 December 2018 Assignment 1 submission 15%
+- Assignment 3 - 20% - Week 11
 - End of Year lab test - 30% - TBC 
-
 
 ### Semester 2
 
+## Week 4 - Classes and transforms
+- [Classes](https://processing.org/reference/class.html)
+- [pushMatrix & popMatrix](https://processing.org/reference/pushMatrix_.html)
+
+### Lab
+- Create classes 
+- Use atan2 
+- make an array of objects
+
+Look up the following in the Processing reference and read the documentation before you begin:
+
+```
+atan2
+pushMatrix()
+popMatrix()
+translate()
+rotate()
+PVector
+```
+
+Start with the code we wrote in the class and make this:
+
+[![YouTube](http://img.youtube.com/vi/1ruS5NAASso/0.jpg)](https://www.youtube.com/watch?v=1ruS5NAASso)
+
+Start by making a new class called FollowMouseShip. In the constructor, give it a random x and y and random colour. You will have to add a new field to the class to store the colour
+
+Modify the update method. Remove the keyboard handling code and instead, have the ship always move in the direction of it's forward vector. You will have to calculate the theta value using a bit of trigonometry. Check out the atan2 function which you can use to do this. Read the documentation carefully! Now get it so that when the ship gets within 5 units of the mouse position, give it a new random x and y and colour.  
+
+Make a variable of type FollowMouseShip in the sketch and get a single FollowMouseShip working. When you have one ship working, you can create an array of them like in the video
+
+
 ## Week 3
 - The Frequency Spectrum
+
+Check out AudioViz
 
 ## Week 2
 - Audio visualisation
