@@ -50,7 +50,7 @@ void getFrequencyBands()
     }
     average /= (float) w;
     bands[i] = average * 5.0f;
-    lerpedBands[i] = lerp(lerpedBands[i], bands[i], 0.1f);
+    lerpedBands[i] = lerp(lerpedBands[i], bands[i], 0.05f);
   }
 }
 
