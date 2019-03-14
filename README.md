@@ -30,6 +30,16 @@ Resources
 ### Semester 2
 
 ## Week 7 - Bullets
+- Check out YASC1 for bullets
+
+## Lab
+
+- Modify the YASC1 code so that you can set a fireRate. For example, each ship should be able to fire 5 bullets each seconds
+- Modify the code so that the bullets get removed from the arraylist when they go out of bounds of the screen
+- Modify the code so that the bullets spawn in front of the Ship
+- Multiple players with different keys to control each Ship
+- Ships take dammage when they get hit by a bullet
+
 
 ## Week 6 - Review Week
 
