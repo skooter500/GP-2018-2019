@@ -24,6 +24,7 @@ class Ship
   
   void render()  
   {
+    pushMatrix();
     translate(pos.x, pos.y);
     rotate(theta);
     
@@ -32,6 +33,7 @@ class Ship
     line(0, - hp, + hp, + hp);
     line(hp, 0 + hp, 0 , 0);
     line(0, 0, - hp , + hp);  
+    popMatrix();
   }
   
   void move()
@@ -55,6 +57,13 @@ class Ship
     {
       theta += 0.1f;
     }
+    
+    if (keys[' '])
+    {
+      Bullet b = new Bullet(pos.x, pos.y, theta);
+      bullets.add(b);
+    }
+    
   }
 
    
