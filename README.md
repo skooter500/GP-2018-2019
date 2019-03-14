@@ -24,12 +24,16 @@ Resources
 
 - 19 November 2018 Lab Test 15%
 - 3 December 2018 Assignment 1 submission 15%
-- Assignment 3 - 20% - Week 11
+- Assignment 3 - 20% - Week 10
 - End of Year lab test - 30% - TBC 
 
 ### Semester 2
 
-## Week 4 - Classes and transforms
+## Week 7 - Bullets
+
+## Week 6 - Review Week
+
+## Week 5 - Classes and transforms
 - [Classes](https://processing.org/reference/class.html)
 - [pushMatrix & popMatrix](https://processing.org/reference/pushMatrix_.html)
 
