@@ -34,6 +34,7 @@ class Ship
     line(hp, 0 + hp, 0 , 0);
     line(0, 0, - hp , + hp);  
     popMatrix();
+    
   }
   
   void move()
