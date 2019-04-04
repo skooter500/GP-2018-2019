@@ -31,20 +31,43 @@ boolean[] keys = new boolean[1024];
 
 void keyPressed()
 {
-  keys[keyCode] = true;
+  if (key == CODED)
+  {
+    keys[keyCode] = true;
+  }
+  else
+  {
+    keys[key] = true;
+  }
 }
 
 void keyReleased()
 {
-  keys[keyCode] = false;
+  if (key == CODED)
+  {
+    keys[keyCode] = false;
+  }
+  else
+  {
+    keys[key] = false;
+  }
 }
 
 ArrayList<Bullet> bullets = new ArrayList<Bullet>();
 
 
+float timeDelta = 0;
+float last = 0;
 void draw()
 {
+  
+  float now = millis();
+  timeDelta = (now - last) / 1000.0f;
+  last = now;
+  //println(timeDelta);
   background(0);
+  text("Bullets: " + bullets.size(), 10, 50);
+  
   //drawPlayer(px, py);
   s.render();
   s.move();
@@ -60,5 +83,10 @@ void draw()
     Bullet b = bullets.get(i);
     b.render();
     b.move();
+  }
+  
+  if (keys['a'])
+  {
+    println("AAAA");
   }
 }

@@ -29,6 +29,17 @@ Resources
 
 ### Semester 2
 
+## Week 10 - More Physics
+
+## Week 9 - Physics & Gravity
+- [Physics](https://www.toppr.com/guides/physics/motion/equations-of-motion/)
+
+[![YouTube](http://img.youtube.com/vi/JIz2L4tn5kM/0.jpg)](https://www.youtube.com/watch?v=JIz2L4tn5kM)
+
+## Week 8 - PVectors
+- [Vectors in video games](http://gamedevelopertips.com/vector-in-game-development/)
+- [PVectors](https://www.youtube.com/watch?v=7nTLzLf7jUg)
+
 ## Week 7 - Bullets
 - Check out YASC1 for bullets
 

@@ -4,6 +4,9 @@ class Ship
    PVector pos;
    PVector forward;
    float theta;
+   
+   int fireRate;
+   float ellapsed = 0;
  
    // Constructor
   Ship()
@@ -11,6 +14,7 @@ class Ship
     pos = new PVector(width / 2, height / 2);
     c = color(255);
     forward = new PVector(0, 0);
+    fireRate = 5;
   }
   
   // Parameterised constructor
@@ -20,6 +24,7 @@ class Ship
     pos = new PVector(x, y);
     forward = new PVector(0, 0);
     this.c = c;
+    fireRate = 5;
   }
   
   void render()  
@@ -39,8 +44,11 @@ class Ship
   
   void move()
   {
+    ellapsed += timeDelta;
     forward.x = sin(theta);
     forward.y = -cos(theta);
+    
+    
     if (keys[UP])
     {
       pos.add(forward);
@@ -59,10 +67,15 @@ class Ship
       theta += 0.1f;
     }
     
-    if (keys[' '])
+    if (keys[' '] && ellapsed >= (1.0f / (float) fireRate))
     {
-      Bullet b = new Bullet(pos.x, pos.y, theta);
+      
+      float dist = 25;
+      // spawnPoint = pos + forward * dist;
+      PVector spawnPoint = PVector.add(pos, PVector.mult(forward, dist));
+      Bullet b = new Bullet(spawnPoint.x, spawnPoint.y, theta);
       bullets.add(b);
+      ellapsed = 0;
     }
     
   }
